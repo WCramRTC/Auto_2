@@ -3,7 +3,6 @@ name: WCram Practice
 on: [push]
 
 jobs:
-  build:
     runs-on: unbuntu-latest
 
     steps:
