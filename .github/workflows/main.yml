@@ -3,7 +3,9 @@ name: WCram Practice
 on: [push]
 
 jobs:
+  build:
     runs-on: unbuntu-latest
 
     steps:
-    - run: echo "This worked"
+    - name: Run a one-line script
+      run: echo "This worked"
